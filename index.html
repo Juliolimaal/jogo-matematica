@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Matemática</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Matemática</h1>
+        <div id="tempo">Tempo: 120s</div>
+        <div id="pontuacao">Pontos: 0</div>
+        <div id="pergunta">Pergunta</div>
+        <input type="number" id="resposta" placeholder="Sua resposta">
+        <button id="responder">Responder</button>
+        <div id="resultado"></div>
+        <button id="reiniciar" onclick="reiniciarJogo()" style="display:none;">Reiniciar Jogo</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
